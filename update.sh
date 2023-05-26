@@ -1,8 +1,5 @@
 #!/bin/bash
 
-rm .zshenv
-cp ~/.zshenv .
-
 rm .zshrc
 cp ~/.zshrc .
 
