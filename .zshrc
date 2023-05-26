@@ -2,6 +2,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="agnoster" # set by `omz`
 
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -22,7 +23,3 @@ prompt_context() {
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="$HOME/bin:$PATH"
-
-alias hello="$HOME/bin/hello.sh"
-alias todo="python $HOME/py-projects/todo/main.py"
-alias pygo="python $HOME/py-projects/pygo/main.py"
