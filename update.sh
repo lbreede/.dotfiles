@@ -14,3 +14,6 @@ cp ~/.config/nvim/lua/custom/init.lua .config/nvim/lua/custom/init.lua
 cp ~/.config/nvim/lua/custom/mappings.lua .config/nvim/lua/custom/mappings.lua
 cp ~/.config/nvim/lua/custom/plugins.lua .config/nvim/lua/custom/plugins.lua
 cp ~/.config/nvim/lua/custom/configs/lspconfig.lua .config/nvim/lua/custom/configs/lspconfig.lua
+
+mkdir -p .config/tmux
+cp ~/.config/tmux/tmux.conf .config/tmux/tmux.conf
