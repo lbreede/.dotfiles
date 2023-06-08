@@ -1,13 +1,10 @@
 local plugins = {
     {
-        "christoomey/vim-tmux-navigator",
-        lazy = false,
-    },
-    {
         "williamboman/mason.nvim",
         opts = {
             ensure_installed = {
                 "rust-analyzer",
+                "pyright",
             },
         },
     },
@@ -17,6 +14,10 @@ local plugins = {
             require "plugins.configs.lspconfig"
             require "custom.configs.lspconfig"
         end,
+    },
+    {
+        "christoomey/vim-tmux-navigator",
+        lazy = false,
     },
     {
         "rust-lang/rust.vim",
