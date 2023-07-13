@@ -25,3 +25,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="$HOME/bin:$PATH"
 
 alias vim=nvim
+
+[ -f "/Users/lennartbreede/.ghcup/env" ] && source "/Users/lennartbreede/.ghcup/env" # ghcup-env
